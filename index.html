@@ -7,15 +7,31 @@
 </head>
 <body>
 <div id="header">
-   <h1 id="saluto"></h1>
+   <h1 id="saluto">
+      CHE BELLA GIORNATA
+      <br>
+   
+   </h1>
 </div>
 <div id="title">
 </div>
 <div id="input">
+   <label for"inNumber">Inserisci un numero: </label>
+   <input id="inNumber" placeholder ="numero">
+   <br><br>
+   <label for"inText">Inserisci il testo: </label>
+   <input id="inNumber" placeholder = "testo">
+   <br><br>
+   <button type="button" id="btnElabora" onclick="elabora()">Elabora</button>
+   <button type="button" id="btnAnnulla" onclick="annulla()">Annulla</button>
+   
 </div>
 <div id="output">
-   <p id="out">Output</p>
-   <p id="error">Errori</p>
+   <p id="outText">Output</p>
+   <p id="error">
+      Errori
+      
+   </p>
 </div>
 <script src="script.js"></script>
 </body>
